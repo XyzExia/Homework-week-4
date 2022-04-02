@@ -1,0 +1,54 @@
+.container{
+    border-style: solid;
+}
+
+.hidden{
+    display: none;
+}
+
+.mcchoices{
+    border-style: solid;
+    background-color: lawngreen;
+}
+
+.mcchoices:hover{
+    background-color: azure;
+    color:blue;
+}
+
+.start{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+#qgame{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+.end{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+.endcard{
+
+    text-align: center;
+}

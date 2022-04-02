@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<title>hw3</title>
+<link rel="stylesheet" href="./Assets/css.css">
+
+</head>
+<body>
+
+<div class="start">
+        <h1>quiz game, for every wrong questions you lose 10 secs.</h1>
+        <button id="beginBtn" type="button" class="btn">Begin Quiz</button><br>
+</div>
+
+<div id="qgame" class="container hidden">
+    <p> Quiz game </p>
+    <div>
+
+        <h2 class="timer"> TIMER: </h2>
+        
+        <div id="question"> questions </div><br>
+        
+        <div id="questionbox">
+          
+          <div class="gamechoicebox">
+            
+            <div id="mcA" class="mcchoices">
+            </div>
+    
+            <div id="mcB" class="mcchoices">
+            </div>
+    
+            <div id="mcC" class="mcchoices">
+            </div>
+    
+            <div id="mcD" class="mcchoices">        
+            </div>
+    
+          </div>
+    
+          <hr style="margin-top:0; border-color:transparent;">
+    
+          <div id="qresult"> The results will be displayed here </div>
+    
+        </div>
+        
+      </div>
+    
+</div>
+
+<div class="hidden end endcard">
+    <h1>Score board</h1>
+    <div class="score"> Your Score </div>
+    <p> end page</p>
+    <form>
+        <label for="initialsBox">Enter Your Name Here:</label><br>
+        <input id="initialsBox" type="text" maxlength="3"><br>
+        <input id="submitBtn" type="submit" class="btn">
+    </form>
+
+    <div class ="leaderboard hidden endcard" id="lboard">
+        <div id="scoreCard">
+
+                <h2>Top 10</h2>
+            
+                <div id="leaderBoard"></div>
+      
+            <button id="backBtn" type="button" class="btn">restart</button>
+           
+        </div>
+    </div>
+
+</div>
+
+<script src="./Assets/js.js"></script>
+</body>
